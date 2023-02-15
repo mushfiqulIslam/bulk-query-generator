@@ -1,4 +1,4 @@
-# dns-query-generator-generator
+# query-generator-generator
 
 ### Install **virtualenv** using pip3
 
@@ -19,6 +19,6 @@
 
 ### Now run dig.sh with following command:
 
-    ./dig.sh 500 "18.181.126.166" 1
-    # Here Number of queries per minute=500, Resolver="18.181.126.166"
+    ./dig.sh 30 "127.0.0.1" 1
+    # Here Number of queries per minute=30, Resolver="127.0.0.1"
     # Dig time period in minutes=1
